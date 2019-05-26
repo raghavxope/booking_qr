@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="140dp"
+        android:entries="@array/mall_arrays"
+        android:prompt="@string/mall_prompt" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="193dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="242dp"
+        android:maxLength="11"
+        android:id="@+id/car_no" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="156dp"
+        android:layout_y="361dp"
+        android:id="@+id/btnSubmit"
+        android:text="SUBMIT" />
+
+    <ImageView
+        android:layout_width="296dp"
+        android:layout_height="208dp"
+        android:layout_x="59dp"
+        android:layout_y="450dp"
+        android:id="@+id/QR_Image"/>
+
+
+
+
+</AbsoluteLayout>

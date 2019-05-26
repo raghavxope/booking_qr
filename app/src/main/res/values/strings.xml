@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">booking_qr</string>
+
+    <string name="mall_prompt">Choose a country</string>
+
+    <string-array name="mall_arrays">
+        <item>Mall_1</item>
+        <item>Uni_mall</item>
+        <item>Ind_mall</item>
+
+    </string-array>
+
+</resources>
